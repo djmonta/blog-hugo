@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "ja-jp"
 defaultContentLanguage = "ja"
-title = "blog"
+title = "blog.djmonta.me"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -12,7 +12,7 @@ copyright = "" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
-paginate = 5
+paginate = 10
 
 [author]
   name = "John Doe"
@@ -74,11 +74,11 @@ paginate = 5
 [menu]
 
   [[menu.main]]
-    name = "Posts"
+    name = "Article"
     url = "posts/"
     weight = 10
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about"
     weight = 20
